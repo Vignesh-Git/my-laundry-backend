@@ -4,7 +4,6 @@
 
   
   
-<h2>🧐 Features</h2>
 
 Here're some of the project's best features:
 
@@ -37,26 +36,27 @@ npm i
 ```
 npm start
 ```
+<h2>💻 Usage:</h2>
 
-<p>7. Singup ( /api/user/signup )</p>
+<p>1. Signup ( /api/user/signup )</p>
 
 ```
 firstName : string; lastName : string; email : string ; mobileNumberExtension : string; mobileNumber : string;
 ```
 
-<p>8. signup sample</p>
+<p>1.1. signup sample</p>
 
 ```
 firstName : "Kevin"; lastName : "Peter"; email : "kevinpeter@gmail.com"; mobileNumberExtension : "+91"; mobileNumber : "9876543210";
 ```
 
-<p>9. Trigger OTP ( /api/user/trigger_otp )</p>
+<p>2. Trigger OTP ( /api/user/trigger_otp )</p>
 
 ```
 mobileNumberExtension : string; mobileNumber : string;
 ```
 
-<p>10. Verify OTP ( /api/user/verify_otp )</p>
+<p>3. Verify OTP ( /api/user/verify_otp )</p>
 
 ```
 mobileNumberExtension : string; mobileNumber : string; otp : string;
